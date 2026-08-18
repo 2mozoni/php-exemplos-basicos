@@ -5,3 +5,4 @@ $numero = (int) readline("Digite um número para ver a tabuada: ");
         $resultado = $numero * $j;
         echo "$numero x $j = $resultado\n";
     }
+?>

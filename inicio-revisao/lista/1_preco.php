@@ -10,3 +10,4 @@ $total = $preço * $quantidade;
  } else {
     echo "O valor total é: $total";
  }
+ ?>
