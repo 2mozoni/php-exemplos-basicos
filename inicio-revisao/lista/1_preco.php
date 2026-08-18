@@ -6,8 +6,8 @@ $total = $preço * $quantidade;
  if ($total >= 200) {
     $desconto = $total * 0.1;
     $total = $total - $desconto;
-    echo "O valor total é:  $total\n";
+    echo "O valor total é: R$ $total\n";
  } else {
-    echo "O valor total é: $total";
+    echo "O valor total é: R$ $total";
  }
  ?>
