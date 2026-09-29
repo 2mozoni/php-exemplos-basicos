@@ -31,7 +31,7 @@
         $arquivo = fopen('usuários.txt', 'a');
 
         // criando uma linha com o nome e senha separados por;
-        $linha = $nome . ';' . $senha . '\n';
+        $linha = $nome . ';' . $senha . "\n";
 
         // escreve a linha no arquivo (insere de fato)
         fwrite($arquivo, $linha);
